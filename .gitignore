@@ -1,0 +1,14 @@
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.gz
+*.log
+*.out
+*.pdf
+*.xml
+*latexindent*
+*(busy)

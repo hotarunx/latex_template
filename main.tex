@@ -1,0 +1,30 @@
+\documentclass[autodetect-engine,dvi=dvipdfmx,ja=standard,a4paper]{bxjsarticle}
+\usepackage{subfiles}
+
+\usepackage[backend=biber,style=ieee]{biblatex}
+\bibliography{src/ref.bib}
+
+\usepackage{graphicx}
+\graphicspath{{./fig/}{../fig/}}
+
+\usepackage{mathtools}
+\usepackage{newtxtext,newtxmath,helvet}
+\usepackage{bm}
+\usepackage{hyperref}
+
+% \title{tex_template}
+% \author{hotarunx}
+% \date{}
+
+\begin{document}
+
+% \maketitle
+
+\texttt{latex}
+
+\cite*{antbook}
+
+\subfile{doc/introduction.tex}
+
+\printbibliography[title=参考文献]
+\end{document}
